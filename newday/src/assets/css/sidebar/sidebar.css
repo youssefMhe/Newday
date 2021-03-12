@@ -1,0 +1,142 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 41px;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+img {
+    padding: 5px;
+    width: 150px;
+}
+.description {
+    position: relative;
+    top: 40px;
+    bottom: 0;
+    left: 650px;
+    color: white;
+    width: 700px;
+    height: 90px;
+    text-align: center;
+    backgroundColor: transparent;
+    font-size: medium;
+    border: 1px  white;
+    border: 0.5px solid white;
+    border-radius: 20px;
+}
+
+p {
+    position: relative;
+    color: white;
+    text-align: center;
+    backgroundColor: transparent;
+    font-size: medium;
+}
+.propositions{
+    position: relative;
+    top: 62px;
+    left: 650px;
+    color: white;
+    width: 700px;
+    height: 250px;
+    text-align: center;
+    backgroundColor: transparent;
+    font-size: medium;
+}
+div.desc {
+    padding: 17px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    width: 150px;
+    height: 110px;
+
+}
+.responsive {
+    padding: 20px 6px;
+    float: left;
+    width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.desc {
+    padding: 17px;
+    text-align: center;
+}
+.value {
+
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    padding:1px;
+    text-align: center;
+    top:10px;
+}
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.buttons {
+    position: relative;
+    top: 60px;
+    left: 650px;
+    color: white;
+    width: 700px;
+    height: 250px;
+    text-align: center;
+    backgroundColor: transparent;
+    font-size: medium;
+}
+.button {
+    background-color: #F1359E;
+    border: none;
+    color: black;
+    padding: 0px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 30px;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    font-family:  'Courier New', monospace;
+    font-weight: bold;
+}
+

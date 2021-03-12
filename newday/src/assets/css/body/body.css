@@ -1,0 +1,25 @@
+.top-bar {
+    background: black;
+    position: relative;
+    color: #DE1753 ;
+    left:580px;
+    top: 20px;
+    right: 45px;
+    width: 500px;
+    height: 41px;
+    text-align: center;
+    font-family:  "system-ui";
+    border: 0.5px solid white;
+}
+.icon-info{
+    position: absolute;
+    color: grey ;
+    left:1350px;
+    top: 20px;
+    right: 45px;
+    width: 500px;
+    height: 50px;
+}
+
+
+
